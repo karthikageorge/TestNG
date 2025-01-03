@@ -22,13 +22,14 @@ public class RadioBtn {
 		driver.manage().window().maximize();
 		driver.get("https://selenium.qabible.in/radio-button-demo.php");
 	}
-	@Test(priority=1,invocationCount = 2)
+	@Test(priority=1)
 	 public void verifyButtonText() {
 		WebElement butonText=driver.findElement(By.xpath("//button[@id='button-one']"));
 		String actualText= butonText.getText();
 		String expectedText = "Show Selected Value";
 		
 		Assert.assertEquals(actualText, expectedText);
+		System.out.println("hiiii");
 		
 	}
 	@Test(dependsOnMethods = "verifyButtonText")
@@ -37,6 +38,7 @@ public class RadioBtn {
 		WebElement butonText=driver.findElement(By.xpath("//button[@id='button-one']"));
 		boolean BtnEnabled = butonText.isEnabled();
 		Assert.assertTrue(BtnEnabled);
+		
 		System.out.println(BtnEnabled);
 	}
 

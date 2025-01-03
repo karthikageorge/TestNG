@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="srctest.RadioButtonExample"/>
+      <class name="srctest.DataProviderExample"/>
+      <class name="assignments.VerifyImage"/>
+      <class name="srctest.LaunchBrowser"/>
+      <class name="assignments.StartDownload"/>
+      <class name="srctest.RadioBtn"/>
+      <class name="assignments.TooltipExample"/>
+      <class name="srctest.SoftAssertExample"/>
+      <class name="assignments.PrintAllNames"/>
+      <class name="srctest.FacebookDataProvider"/>
+      <class name="basics.Annotations_Example"/>
+      <class name="srctest.TableExample"/>
+      <class name="assignments.Six_DimentionalDataProvider"/>
+      <class name="assignments.TableExample"/>
+      <class name="assignments.PrintSalary"/>
+      <class name="assignments.TestngAssignmentVerifyCss"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

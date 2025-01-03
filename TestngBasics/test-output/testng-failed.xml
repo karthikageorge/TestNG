@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="srctest.LaunchBrowser">
+      <class name="assignments.Six_DimentionalDataProvider">
         <methods>
-          <include name="verifyCurrentUrl"/>
           <include name="launchBrowser"/>
+          <include name="enterDetails"/>
         </methods>
-      </class> <!-- srctest.LaunchBrowser -->
+      </class> <!-- assignments.Six_DimentionalDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
